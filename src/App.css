@@ -1,0 +1,248 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  
+  body {
+    font-family: sans-serif;
+    background: #ffff;
+    font-family: 'Lato', sans-serif;
+  }
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar{
+    background-color: #fff !important;
+}
+
+.navbar-brand{
+    font-size: 1.9rem;
+    color: #565387 !important;
+}
+.navbar a {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.navbar a:hover {
+    color: #3498db !important;
+}
+.menu_active{
+    font-weight: bold ;
+    border-bottom: 1px solid #565387;
+}
+.count{
+    position: absolute;
+    top: 20%;
+    left: 98%;
+    text-decoration: none;
+}
+.dollor {
+  display: inline-block;
+  margin-right: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 100px;
+    margin: 30px 0;
+  }
+  .product {
+    width: 25%;
+    padding: 0 12px;
+    margin: 20px 0;
+    overflow: hidden;
+  }
+  .img {
+    background:#fafafa;
+    width: 100%;
+    min-height: 200px;
+    text-align: center;
+    overflow: hidden;
+    /* padding: 10px; */
+  }
+  .img img {
+    min-width: 100%;
+    height: 200px;
+  }
+  .details {
+    padding: 15px 10px;
+    text-align: center;
+    background: #ffff;
+    border-left: 1px solid #fafafa;
+    border-right: 1px solid #fafafa;
+    color: #fff;
+    color: #222;
+  }
+  .name {
+    margin: 12px 0;
+    color: #222;
+    font-size: 1.5rem;
+  }
+  
+  .price {
+    margin: 15px 0;
+    color: rgb(69, 172, 212);
+    font-size: 22px;
+    font-weight: 30;
+  }
+  .add {
+    width: 100%;
+    background: rgb(69, 190, 238);
+    margin: 0 auto;
+    outline: none;
+    text-align: center;
+    padding: 14px 0;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .btn {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.c-container {
+  width: 100%;
+  margin-top: 70px;
+  padding: 0 104px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.c-details {
+  width: 75%;
+  border: 1px solid #fcfcfc;
+  border-radius: 5px;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  /* padding: 15px 20px; */
+}
+
+.c-img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+
+.c-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.c-name {
+  width: 250px;
+  padding: 0 15px;
+  font-size: 14px;
+}
+.c-price {
+  width: 120px;
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+.inc {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  /* border: 1.1px solid orangered; */
+  color: orangered;
+  /* border-radius: 50%; */
+  cursor: pointer;
+  font-weight: normal;
+}
+.c-qty {
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 16px;
+  width: 80px;
+  text-align: center;
+}
+.dec {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: orangered;
+  cursor: pointer;
+  font-weight: normal;
+}
+.c-total {
+  display: inline-block;
+  width: 150px;
+  padding: 0 15px;
+  font-weight: bold;
+  color: #f57224;
+  text-align: center;
+}
+.del {
+  border:none;
+  display: inline-block;
+  padding: 0 15px;
+  color: rgb(247, 117, 117);
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+.c-summary {
+  width: 25%;
+  padding: 0 0 0 20px;
+  margin-top: 70px;
+}
+
+.summary {
+  background: #fff;
+  padding: 13px;
+}
+
+.summary h3 {
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 1px solid #999;
+  padding-bottom: 7px;
+} 
+.t-items {
+  display: flex;
+  margin: 15px 0;
+}
+.items {
+  width: 50%;
+  text-align: left;
+  font-weight: normal;
+}
+.Count {
+  width: 50%;
+  text-align: right;
+  font-weight: bold;
+  color: #f57224;
+}
+.price-sec {
+  display: flex;
+  margin: 15px 0;
+}
+.titel-p {
+  width: 50%;
+  text-align: left;
+  font-weight: normal;
+}
+.item-p {
+  font-weight: bold;
+  width: 50%;
+  text-align: right;
+  color: #f57224;
+} 
